@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-from utils.helper import preprocess_input
+from helper import preprocess_input
 
 st.set_page_config(page_title="Churn AI System", layout="wide")
 
@@ -12,8 +12,8 @@ st.title("🏦 AI-Powered Customer Churn Prediction System")
 # =========================
 @st.cache_resource
 def load_model():
-    model = joblib.load("model/churn_model.pkl")
-    scaler = joblib.load("model/scaler.pkl")
+    model = joblib.load("churn_model.pkl")
+    scaler = joblib.load("scaler.pkl")
     return model, scaler
 
 model, scaler = load_model()
