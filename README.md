@@ -1,4 +1,11 @@
 ## 🚀 Bank Customer Churn Prediction System
+🌐 **Live Dashboard:** https://bank-customer-churn-prediction-ewbgdvurbyq6rwcgratzds.streamlit.app/ 
+
+![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 An AI-powered machine learning web application that predicts whether a bank customer is likely to churn using customer demographics, banking activity, and behavioral data.
 
@@ -138,6 +145,8 @@ bank-customer-churn-prediction/
 ---
 
 # 📸 Application Preview
+![Dashboard](bank_churn1.png)
+![Dashboard](bank_chrun2.png)
  
 ## Dashboard Features
 - Customer Information Form
